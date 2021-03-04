@@ -1,4 +1,4 @@
-The files contained in this project have been created for a GCSE programming project. My development logs are contained within this directory.
+The files contained in this project have been created for a GCSE programming project.
 
 To run any files you will need a python interpreter installed. https://www.python.org/downloads/release/python-340/
 Once you have a python interpreter installed you can run the project by through the executable in the root directory of the extracted folder or run:
