@@ -1,0 +1,26 @@
+There are 30 cards in the deck at the start of the game
+Each card has:
+    - a colour assigned to it (RED, BLACK or YELLOW)
+    - a unique number
+        - each colour has 10 cards
+        - so there are 10 RED cards, 10 BLACK cards and 10 YELLOW cards
+These cards are shuffled at the start of the game
+Every turn each player takes a card from the top of the deck (PLayer 1 takes the top card first)
+The two cards picked up are compared by:
+    - comparing the colour of the two cards, if they are the same then:
+        - the numbers are compared (the player with the higher number wins)
+    - if they are different colours then they are compared with the table shown below:
+         _____________________
+        |Card	Card	Winner|
+        |_____________________|
+        |Red	Black	Red   |
+        |Yellow	Red     Yellow|
+        |Black	Yellow	Black |
+        |_____________________|
+
+The winner of each round keeps both cards played
+The game ends when the entire deck is depleted
+
+At the start of the game, each player gets to enter their names, these name must be 'authenticated' (check the 'names.txt' for the list of authenticated names)
+Once the game has finished, the amount of cards the winner has is appended to the external file 'scores.txt' with the authenticated players name
+The program also has the ability to display the name and quantity of cards of the top 5 players from this external file.
